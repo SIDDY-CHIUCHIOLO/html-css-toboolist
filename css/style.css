@@ -1,0 +1,34 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.intestazione{
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.logo{
+    vertical-align: bottom;
+}
+
+.logo-text{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+.container{
+    height: 1000px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border: red solid 2px;
+}
