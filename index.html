@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tobolist</title>
 </head>
 
 <body>
-
+    <!-- intestazione della pagina -->
     <header>
         <div class="intestazione">
-            <img class="logo" src="img/logo copia.png" alt="logo boolean">
+            <img class="logo" src="img/logocopia.png" alt="logo boolean">
             <span class="logo-text" >Toboolist</span>
         </div>
+
     </header>
     
-    <div class="selection">
-        <span class="add-task" >Add Task</span>
-        <span class="add-section">Add Section</span>
-    </div>
-
+    
+    <!-- corpo della pgina -->
     <main>
         <div class="container">
 
-            <section class="sezioni">
-                <h2 class="title"><span class="simbolo">&#11206;</span> New Task</h2>
-                <p><span class="spunta">&#10004;</span>Quarterly Newsletter <span class="blue-bg-text">Editorial</span> </p>
+            <!-- opzioni di selezione -->
+        <div class="selection">
+            <span class="add-task features-task-section" >Add Task</span>
+            <span class="add-section features-task-section">Add Section</span>
+        </div>
+
+            <!-- titiolo new task -->
+            <section class="sections">
+                <br>
+                <h2 class="title"><span class="symbol-triangle">&#11206;</span> New Task</h2>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Quarterly Newsletter <span class="blue-bg-text features-bg-text">Editorial</span> </p>
             </section>
 
-            <section class="sezioni">
-                <h2 class="title"><span class="simbolo">&#11206;</span> Today</h2>
-                <p><span class="spunta">&#10004;</span>Quarterly Newsletter <span class="blue-bg-text">Editorial</span> </p>
+            <!-- titolo today -->
+            <section class="sections">
+                <h2 class="title"><span class="symbol-triangle">&#11206;</span> Today</h2>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Recruiting blog post <span class="blue-bg-text features-bg-text">Editorial</span> </p>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Mobile app luaunch <span class="purple-bg-text features-bg-text">Q1 Goals</span> </p>
+                <p class="text"><span class="x-symbol features-x-check">&#10005;</span>Interview Jhon H. <span class="green-bg-text features-bg-text">Recruinting</span> </p>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Summit update to mobile storefronts <span class="orange-bg-text features-bg-text">Mobile</span> </p>
+
+
             </section>
 
-            <section class="sezioni">
-                <h2 class="title"> <span class="simbolo">&#11206;</span> Upcoming</h2>
+            <!-- titolo upcoming -->
+            <section class="sections">
+                <h2 class="title"> <span class="symbol-triangle">&#11206;</span> Upcoming</h2>
+                <p class="text"><span class="x-symbol features-x-check">&#10005;</span>Schedule meeting with Alex</p>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Homepage refresh  <span class="lightpurple-bg-text features-bg-text">Website</span> </p>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Onboard new Sales team members  <span class="greeen-bg-text features-bg-text">Sales</span> </p>
+                <p class="text"><span class="check-symbol features-x-check">&#10004;</span>Review editorial calendar <span class="blue-bg-text features-bg-text">Editorial</span> </p>
+
             </section>
         </div>
     </main>
