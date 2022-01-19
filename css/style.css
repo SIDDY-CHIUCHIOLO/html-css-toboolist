@@ -11,17 +11,17 @@ body{
     font-size:x-large;
 }
 
-.intestazione{
-    padding: 15px;
-    background-color: white;
+header{
+    padding: 10px 20px;
     margin-bottom: 50px;
+    background-color: white;
 }
 
-.logo{
+#logo{
     vertical-align: bottom;
 }
 
-.logo-text{
+#logo-text{
     font-size: 50px;
     font-weight: bolder;
 }
@@ -32,22 +32,21 @@ body{
 }
 
 .container{
-    height: 1000px;
     background-color: white;
     width: 70%;
     margin: auto;
 }
-
 
 .features-task-section{
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
 }
+
 .add-task{
     color: white;
-    background-color: rgb(101 159 255);
-    border: rgb(101 159 255) solid 2px;
+    background-color: #09a9ed;
+    border: #09a9ed solid 2px;
 }
 
 .add-section{
@@ -55,67 +54,64 @@ body{
     color: lightgray;
 }
 
-.sections{
-    padding: 20px 50px;
+li{
+    list-style: none;
+    padding: 10px 0;
 }
 
-.symbol-triangle{
-    font-size: 25px;
+.tasks{
+    padding: 30px 50px;
+}
+
+.circle{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px transparent solid;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.check{
+    color:rgb(7, 202, 7);
+    border-color: rgb(7, 202, 7);
+}
+
+.x{
+    color: red;
+    border-color: red;
+}
+
+.bg{
+    color: white;
+    border-radius:50px;
+    padding: 10px 15px;
+    font-size: 15px;
 }
 
 .blue-bg-text{
-    background-color: rgb(101 159 255);
-    padding: 5px;
-    border-radius:10px;
-    color: white;
-}
-
-.features-x-check{
-    font-size: 10px; 
-    padding: 8px;
-    margin-right: 5px;
-    border-radius: 50%;
-    background: white;
-    margin-right: 20px;
-}
-
-.check-symbol{
-    color: green;
-    border: green solid 2px;
-}
-
-.text{
-    padding: 20px 0px;
-    font-weight: 600;
-}
-
-.x-symbol{
-    color: red;
-    border: red solid 2px;
-}
-
-.features-bg-text{
-    color: white;
-    border-radius:50px;
-    padding: 10px;
+    background-color: #09a9ed;
 }
 
 .purple-bg-text{
-    background-color: rgb(100 62 156);
+    background-color: #ab5de6;;
 }
 
 .green-bg-text{
-    background-color: rgb(0 177 115);
+    background-color: #2cc6ab;;
 }
 
 .orange-bg-text{
-    background-color: rgb(243, 130, 1);
+    background-color:  #ff9b00;
 }
 
 .lightpurple-bg-text{
-    background-color:#d767d7;
+    background-color:#ec4a9d;
 }
 
-.greeen-bg-text{
-    background-color:#a3d581;
+.green2-bg-text{
+    background-color: #a3d116;;
 }
